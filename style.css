@@ -1,4 +1,141 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: white;
+}
+.head{
+    background-color: #373737;
+    padding: 10px 120px;
+    display: flex;
+    justify-content:end;
+    font-size: 14px;
+}
+
+.head > div:first-child{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 80px ;
+}
+
+.head > div:first-child a{
+    color: white;
+    margin: 0 5px;
+}
+
+.head > div:last-child a{
+    color: white;
+    margin: 0 10px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.header-main figure{
+    width: 250px;
+    
+}
+.header-main figure img{
+    width: 100%;
+} 
+
+.header-main nav > ul{
+    display: flex;
+}
+
+.header-main nav > ul li{
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.banner-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-image:url(./image/jodhpur-1215239.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0 100px 0;
+}
+
+.banner-inner > h2{
+    color: white;
+    font-size: 35px;
+}
+
+.banner-inner > p{
+    color: white;
+    font-size: 22px;
+}
+
+.banner-section > div:first-child,
+.banner-section > div:last-child {
+      background-color: rgba(255,255,255,0.2);
+      padding: 10px;
+      font-size: 30px;
+    }   
+
+
+.banner-form{
+    background-color: rgba(255,255,255,0.2);
+    margin-top:20px;
+    padding: 10px;    
+}
+
+.banner-form > form > div:first-child{
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+.banner-form > form > div:first-child button{
+    padding:10px 20px;
+    background-color: white;
+    border-radius: 6px 6px 0 0;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.banner-form-active-btn{
+    background-color: #009ddc !important;
+    color: white !important;
+}
+.banner-form > form > div:last-child{
+    display: flex;
+    padding-top: 10px;
+}
+.banner-form > form > div:last-child input,
+.banner-form > form > div:last-child select
+{
+    font: 18px;
+    padding: 6px 8px;
+    border: 1px solid lightslategrey;
+}
+
+.banner-form > form > div:last-child button{
+    background-color: #009ddc;
+    color: white;
+    font-weight: 500;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    padding: 10px 20px;
 }
