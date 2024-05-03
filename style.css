@@ -185,7 +185,7 @@ nav > ul li i{
 }
 
 .matter{
-	width: 600px;
+	width: 500px;
 }
 
 .image > img{
@@ -504,43 +504,48 @@ nav > ul > li:hover .inner-nav{
     top:320px;
     left:-50px;
     width:120px;
-    height:120;
-    
+    height:120px;  
 }
 .s4{
     position: absolute;
     left:250px;
     top:-60px;
     width:120px;
-    height: 120;
+    height: 120px;
 }
 .s5{
-   position: absolute;
-   left:475px;
+    position: absolute;
+    left:475px;
     top:-60px;
     width:120px;
-    height: 120;
+    height: 120px;
 }
 .s6{
     position: absolute;
     left:675px;
     top:10px;
     width:120px;
-    height: 120;
+    height: 120px;
 }
 .s7{
     position: absolute;
     left: 800px;
     top: 140px;
     width:120px;
-    height: 120;
+    height: 120px;
 }
 .s8{
     position: absolute;
     left: 800px;
     top: 300px;
     width:120px;
-    height: 120;
+    height: 120px;
+}
+
+
+.hov > img:hover{
+    transform: rotate(360deg);
+    transition: 1.5s;
 }
 
 .DS{
@@ -587,7 +592,6 @@ nav > ul > li:hover .inner-nav{
     margin-left: 110px;
     margin-top: 100px;
     width: 400px;
-   
 }
 
 .forts > img{
@@ -679,6 +683,7 @@ nav > ul > li:hover .inner-nav{
     background-color: #28292E;
     padding:10px;
     text-align: center;
+    color: white;
 }
 
 
@@ -706,4 +711,162 @@ nav > ul > li:hover .inner-nav{
 .firstexp > img{
     height: 50%;
     width: 100%;
+}
+
+.sectexi{
+    height: 300px;
+    background-image: url(./image/Jaipur-Rajasthan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ourpartners{
+    background-color: #E7F8FF;
+    padding-bottom: 40px;
+}
+
+.ourpartners > h1{
+    font-family:"Philosopher", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px 0;
+    text-transform: capitalize;
+}
+.op-inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-cont{
+    width: 170px;
+    height: 97px;
+    border: 1px solid #ececec;
+    text-align: center !important;
+    background-color: white ;
+    border-radius: 3px;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+.inner-cont > img{
+    display: block;
+    width: 100%;
+}
+
+.g20{
+    background-image: url(./image/g20-bg.jpg);
+    background-position: bottom;
+    background-size: auto 90%;
+    background-repeat: repeat-x;
+    padding: 10px 0;
+}
+
+.g20 .container{
+    display: flex;
+    align-items: center;
+}
+
+.g20 .container .heading-g20{
+    width: 65%;
+    background-image: -webkit-linear-gradient(270deg, orange 53%, white 65%,green 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.g20 .container .heading-g20 h1{
+    font-size: 35px;
+}
+
+.g20 .container .g20-img{
+    width: 16%;
+   }
+
+.g20 .container .g20-img > img{
+    width: 100%;
+}
+
+footer{
+    background-color: #28292E;
+    border-top: 2px solid white;
+}
+
+
+.foter-one{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.foter-one	img{
+	height: 25%;
+	width: 25%;
+}
+
+.foter-one > div p a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	line-height: 25px;
+
+}
+
+.foter-two{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.foter-two > div{
+	margin: 0 70px;
+}
+
+.foter-two	img{
+	height: 25%;
+	width: 25%;
+}
+
+.foter-two > div p a {
+	color: white;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.foter-two{
+	border-bottom: 1px solid white;
+}
+
+.footer-last-section{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-last-section img{
+	margin-left: 20px;
+	height: 30%;
+	width: 30%;
+}
+
+.footer-last-section > div p a{
+	color: white;
+	text-decoration: none;
+}
+.footer-last-section > div p{
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+.logo img{
+	margin-right: 50px;
+	height: 50%;
+	width: 50%;
+	filter: brightness(0) invert(1);
 }
