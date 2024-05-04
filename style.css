@@ -742,12 +742,10 @@ nav > ul > li:hover .inner-nav{
     width: 170px;
     height: 97px;
     border: 1px solid #ececec;
-    text-align: center !important;
     background-color: white ;
     border-radius: 3px;
     padding: 10px;
-    display: table-cell;
-    vertical-align: middle !important;
+    place-content: center;
 }
 
 .inner-cont > img{
@@ -791,7 +789,6 @@ footer{
     background-color: #28292E;
     border-top: 2px solid white;
 }
-
 
 .foter-one{
 	padding-top: 30px;
@@ -869,4 +866,15 @@ footer{
 	height: 50%;
 	width: 50%;
 	filter: brightness(0) invert(1);
+}
+
+.social >a{
+    margin: 20px 20px;
+    color: white;
+}
+
+.social img{
+    margin-left:10px;
+    height: 20px;
+    width: 20px;
 }
